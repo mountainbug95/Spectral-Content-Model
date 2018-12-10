@@ -1,0 +1,52 @@
+title: Spectral
+baseurl: /
+landing_template: home
+menu:
+  actions:
+    - label: Sign Up
+      url: generic.md
+    - label: Log In
+      url: generic.md
+footer:
+  social_icons:
+    - title: Twitter
+      icon: fa-twitter
+      url: '#'
+    - title: Facebook
+      icon: fa-facebook
+      url: '#'
+    - title: Instagram
+      icon: fa-instagram
+      url: '#'
+    - title: Dribbble
+      icon: fa-dribbble
+      url: '#'
+    - title: Email
+      icon: fa-envelope-o
+      url: '#'
+  copyright: '&copy; Spectral'
+palette: blue
+palettes:
+  blue:
+    sass:
+      accent1: '#4598c8'
+      accent2: '#93d7ff'
+      accent3: '#b8d5ff'
+      accent4: '#a2f7c2'
+      accent5: '#6289c3'
+      accent6: '#53b678'
+  green:
+    sass:
+      accent1: '#21b2a6'
+      accent2: '#00ffcc'
+      accent3: '#00f0ff'
+      accent4: '#76ddff'
+      accent5: '#505393'
+      accent6: '#ed4933'
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+permalink: '/posts/:slug:output_ext'

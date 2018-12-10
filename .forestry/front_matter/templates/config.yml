@@ -1,0 +1,98 @@
+---
+label: config
+hide_body: true
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Title
+    description: Site title
+    config:
+      required: true
+  - type: text
+    name: landing_template
+    label: Landing Template
+    hidden: true
+    default: home
+    config:
+      required: true
+  - type: field_group
+    name: menu
+    label: Menu Configuration
+    fields:
+      - type: field_group_list
+        name: actions
+        label: Menu Action Buttons
+        description: The action buttons displayed below the menu entries
+        config:
+          labelField: label
+        fields:
+          - type: text
+            name: label
+            label: Button Label
+            description: The text displayed inside the button
+            config:
+              required: true
+          - type: text
+            name: url
+            label: Button URL
+  - type: field_group
+    name: footer
+    label: Footer Configuration
+    fields:
+      - type: field_group_list
+        name: social_icons
+        label: Social Mediaa Icons
+        description: A list of social media icons displayed in tyhe page footer
+        fields:
+          - type: text
+            name: title
+            label: Icon Title
+            config:
+              required: true
+          - type: text
+            name: icon
+            label: Icon
+            description: Font Awesome Icon
+            config:
+              required: true
+          - type: text
+            name: url
+            label: Icon URL
+      - type: text
+        name: copyright
+        label: Copyright Text
+        description: The copyright text displayed at the bottom of the page footer
+  - type: select
+    name: palette
+    label: Color Palette
+    description: The color palette used for the site.
+    default: blue
+    config:
+      required: true
+      source:
+        type: custom
+      options:
+        - blue
+        - green
+  - type: field_group
+    name: palettes
+    label: Palettes
+    hidden: true
+    fields:
+      - type: field_group
+        name: blue
+        label: Blue
+        fields:
+          - type: include
+            name: include_palette
+            label: Palette
+            template: palette
+      - type: field_group
+        name: green
+        label: Green
+        fields:
+          - type: include
+            name: include_palette
+            label: Palette
+            template: palette
