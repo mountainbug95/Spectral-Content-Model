@@ -2,7 +2,7 @@
 label: Section
 hide_body: true
 is_partial: true
-display_field: identifier
+display_field: type
 fields:
   - type: text
     name: section_id
@@ -22,14 +22,6 @@ fields:
         - style2
         - style3
         - style4
-  - type: text
-    name: identifier
-    label: Section Identifier
-    description: >-
-      (Not displayed in the page, only used by the CMS) used to identify the
-      section
-    config:
-      required: true
   - type: text
     name: component
     label: Section Component

@@ -2,7 +2,7 @@
 label: CTA Section
 hide_body: true
 is_partial: true
-display_field: identifier
+display_field: type
 fields:
   - type: text
     name: title
@@ -46,15 +46,6 @@ fields:
         name: include_action
         label: Action
         template: action
-  - type: text
-    name: identifier
-    label: Section Identifier
-    description: >-
-      (Not displayed in the page, only used by the CMS) used to identify the
-      section
-    default: cta
-    config:
-      required: true
   - type: text
     name: component
     label: Section Component

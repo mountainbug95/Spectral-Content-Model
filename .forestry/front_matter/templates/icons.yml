@@ -2,7 +2,7 @@
 label: Icons Section
 hide_body: true
 is_partial: true
-display_field: identifier
+display_field: type
 fields:
   - type: textarea
     name: title
@@ -66,15 +66,6 @@ fields:
             - style1
             - style2
             - style3
-  - type: text
-    name: identifier
-    label: Section Identifier
-    description: >-
-      (Not displayed in the page, only used by the CMS) used to identify the
-      section
-    default: icons
-    config:
-      required: true
   - type: text
     name: component
     label: Section Component

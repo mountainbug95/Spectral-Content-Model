@@ -2,7 +2,7 @@
 label: Features Section
 hide_body: true
 is_partial: true
-display_field: identifier
+display_field: type
 fields:
   - type: text
     name: title
@@ -61,15 +61,6 @@ fields:
         name: icon
         label: Feature Icon
         description: (Font Awesom icon) The icon displayed with the feature content
-  - type: text
-    name: identifier
-    label: Section Identifier
-    description: >-
-      (Not displayed in the page, only used by the CMS) used to identify the
-      section
-    default: features
-    config:
-      required: true
   - type: text
     name: component
     label: Section Component

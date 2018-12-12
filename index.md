@@ -38,7 +38,6 @@ sections:
       - title: Dolor
         icon: fa-code
         style: style3
-    identifier: icons
     component: icons.html
     template: icons
   - section_id: two
@@ -65,7 +64,6 @@ sections:
           Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
           imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
         home_img_path: images/pic03.jpg
-    identifier: spotlights
     component: spotlights.html
     template: spotlights
   - title: Accumsan mus tortor nunc aliquet
@@ -107,7 +105,6 @@ sections:
           Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
           tincidunt nullam amet leo Aenean ligula consequat consequat.
         icon: fa-flag-o
-    identifier: features
     component: features.html
     template: features
   - title: Arcue ut vel commodo
@@ -125,7 +122,6 @@ sections:
         url: generic.md
         is_primary: false
         is_scrolly: false
-    identifier: cta
     component: cta.html
     template: cta
 menus:
