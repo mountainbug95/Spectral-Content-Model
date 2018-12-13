@@ -227,14 +227,6 @@ collections:
                           - style1
                           - style2
                           - style3
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Section Identifier
-                    default: icons
-                    hint: >-
-                      (Not displayed in the page, only used by the CMS) used to
-                      identify the section
                   - name: component
                     widget: hidden
                     required: true
@@ -280,14 +272,6 @@ collections:
                         required: false
                         label: Spotlight Image
                         hint: The image displayed next to the spotlight content
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Section Identifier
-                    default: spotlights
-                    hint: >-
-                      (Not displayed in the page, only used by the CMS) used to
-                      identify the section
                   - name: component
                     widget: hidden
                     required: true
@@ -345,14 +329,6 @@ collections:
                         hint: >-
                           (Font Awesom icon) The icon displayed with the feature
                           content
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Section Identifier
-                    default: features
-                    hint: >-
-                      (Not displayed in the page, only used by the CMS) used to
-                      identify the section
                   - name: component
                     widget: hidden
                     required: true
@@ -415,14 +391,6 @@ collections:
                         label: Is Primary
                         default: false
                         hint: Gives the button a primary color scheme
-                  - name: identifier
-                    widget: string
-                    required: true
-                    label: Section Identifier
-                    default: cta
-                    hint: >-
-                      (Not displayed in the page, only used by the CMS) used to
-                      identify the section
                   - name: component
                     widget: hidden
                     required: true

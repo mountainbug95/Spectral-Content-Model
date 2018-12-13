@@ -2,12 +2,15 @@
 label: Features Section
 hide_body: true
 is_partial: true
-display_field: type
+display_field: title
 fields:
-  - type: text
+  - type: textarea
     name: title
     label: Section Title
-    description: The text displayed at the top of the section
+    description: >-
+      The title displayed at the top of the section (If the section does not
+      have a title, it is used by the CMS)
+    default: Features Section
     config:
       required: true
   - type: textarea

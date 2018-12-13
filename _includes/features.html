@@ -2,7 +2,7 @@
 <section id="{{ include.section.section_id }}" class="wrapper {{ include.section.background_style }} special">
     <div class="inner">
         <header class="major">
-            <h2>{{ include.section.title }}</h2>
+            <h2>{{ include.section.title | newline_to_br }}</h2>
             {{ include.section.subtitle | markdownify }}
         </header>
         <ul class="features">

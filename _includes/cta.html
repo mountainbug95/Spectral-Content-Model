@@ -2,7 +2,7 @@
 <section id="{{ include.section.section_id }}" class="wrapper {{ include.section.background_style }}">
     <div class="inner">
         <header>
-            <h2>{{ include.section.title }}</h2>
+            <h2>{{ include.section.title | newline_to_br }}</h2>
             {{ include.section.text | markdownify }}
         </header>
         {% if include.section.actions %}
