@@ -40,7 +40,8 @@ sections:
         style: style3
     component: icons.html
     template: icons
-  - section_id: two
+  - title: Spotlights Section
+    section_id: two
     background_style: style2
     spotlights:
       - title: |-
