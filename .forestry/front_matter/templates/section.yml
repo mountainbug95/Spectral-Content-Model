@@ -10,6 +10,7 @@ fields:
     description: >-
       The title displayed at the top of the section (If the section does not
       have a title, it is used by the CMS)
+    default: Section Title
     config:
       required: true
   - type: text
